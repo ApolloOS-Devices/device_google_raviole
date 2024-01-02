@@ -163,3 +163,29 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver-V2-ndk.vendor:64 \
     android.hardware.wifi-V1-ndk.vendor:64 \
     com.google.hardware.pixel.display-V4-ndk.vendor:64
+
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/app/Gramophone/Gramophone.apk \
+    system/app/WeatherIcons/WeatherIcons.apk \
+    system/etc/init/smartcharge-init.rc \
+    system/etc/permissions/android.hardware.biometrics.face.xml \
+    system/etc/permissions/org.lineageos.audio.xml \
+    system/etc/permissions/org.lineageos.hardware.xml \
+    system/etc/permissions/org.lineageos.livedisplay.xml \
+    system/etc/permissions/org.lineageos.performance.xml \
+    system/etc/permissions/org.lineageos.profiles.xml \
+    system/etc/permissions/org.lineageos.settings.xml \
+    system/etc/permissions/org.lineageos.trust.xml \
+    system/etc/permissions/privapp-permissions-google.xml \
+    system/etc/sensitive_pn.xml \
+    system/fonts/RobotoFallback-VF.ttf \
+    system/media/bootanimation.zip \
+    system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk \
+    system/etc/default-permissions/default_permissions_co.aospa.sense.xml \
+    system/etc/permissions/privapp_whitelist_co.aospa.sense.xml \
+    system/etc/sysconfig/hiddenapi-whitelist-co.aospa.sense.xml \
+    system/lib64/libFaceDetectCA.so \
+    system/lib64/libMegviiUnlock-jni-1.2.so \
+    system/lib64/libMegviiUnlock.so \
+    system/lib64/libmegface.so \
+    system/priv-app/ParanoidSense/ParanoidSense.apk \
